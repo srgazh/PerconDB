@@ -16,7 +16,7 @@ clear
 while true; do
     read -p "Do you want to install PMM-Clients? y/n-> " yn
     case $yn in
-        [Yy]* ) make install; break;;
+        [Yy]* ) break;;
         [Nn]* ) exit;;
         * ) echo "Please answer yes or no.";;
     esac
